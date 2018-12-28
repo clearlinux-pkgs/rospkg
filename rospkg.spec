@@ -4,7 +4,7 @@
 #
 Name     : rospkg
 Version  : 1.1.7
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/af/1c/dfb6952da61d2ad7331271481f050e405b49830e11c50990a4acf01f7bd3/rospkg-1.1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/af/1c/dfb6952da61d2ad7331271481f050e405b49830e11c50990a4acf01f7bd3/rospkg-1.1.7.tar.gz
 Summary  : ROS package library
