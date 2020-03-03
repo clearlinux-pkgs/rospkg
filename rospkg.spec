@@ -4,7 +4,7 @@
 #
 Name     : rospkg
 Version  : 1.2.3
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/6d/9e/e812f2ced3d3ca37362979af677f1e6459f9f268aebdfce757074f88d845/rospkg-1.2.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6d/9e/e812f2ced3d3ca37362979af677f1e6459f9f268aebdfce757074f88d845/rospkg-1.2.3.tar.gz
 Summary  : ROS package library
@@ -22,10 +22,7 @@ BuildRequires : catkin_pkg
 BuildRequires : distro
 
 %description
-rospkg
------
-Standalone Python library for the ROS package system.
-[ROS Packages Users/Developers Guide](http://docs.ros.org/independent/api/rospkg/html/)
+Library for retrieving information about ROS packages and stacks.
 
 %package bin
 Summary: bin components for the rospkg package.
@@ -48,6 +45,7 @@ python components for the rospkg package.
 Summary: python3 components for the rospkg package.
 Group: Default
 Requires: python3-core
+Provides: pypi(rospkg)
 
 %description python3
 python3 components for the rospkg package.
@@ -62,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578159518
+export SOURCE_DATE_EPOCH=1583220710
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
