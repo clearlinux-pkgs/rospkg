@@ -1,5 +1,5 @@
 PKG_NAME := rospkg
-URL = https://files.pythonhosted.org/packages/a8/f7/2901a17e854d8453aad277be30866756d634150f94a33a90c118b07f267d/rospkg-1.2.5.tar.gz
+URL = https://files.pythonhosted.org/packages/4d/53/b0fbadfeea4741982913a0049516184f98d188a6dd321223040b490963cd/rospkg-1.2.6.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
