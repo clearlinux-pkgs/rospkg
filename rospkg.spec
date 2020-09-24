@@ -4,7 +4,7 @@
 #
 Name     : rospkg
 Version  : 1.2.8
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/c3/2a/95b48dfb286fe9ef52a20e286de7ed473ac940058eb6336789952245d6b8/rospkg-1.2.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/2a/95b48dfb286fe9ef52a20e286de7ed473ac940058eb6336789952245d6b8/rospkg-1.2.8.tar.gz
 Summary  : ROS package library
